@@ -20,7 +20,7 @@ function Socials() {
     {
       name: "linkedin",
       img: linkedin,
-      url: "https://www.linkedin.com/in/kishan-kumar-n-855058234/",
+      url: "https://www.linkedin.com/in/kishan-k17/",
     },
     {
       name: "github",
