@@ -7,6 +7,50 @@ function Projects() {
     <div className="mt-7">
       <Heading>Projects</Heading>
       <Card
+        projectName="NutriScan: Advanced Nutrition Tracking Application"
+        techStack="Next.js 13, MongoDB, React, TypeScript, Tailwind CSS, NextAuth.js, @ericblade/quagga2, Recharts"
+        description={
+          <ul className="list-disc list-inside">
+            <li>
+              Built a responsive nutrition tracking app enabling users to log
+              and track daily nutrient intake.
+            </li>
+            <li>
+              Integrated <strong>@ericblade/quagga2</strong> for barcode
+              scanning, ensuring accurate product identification.
+            </li>
+            <li>
+              Utilized the <strong>OpenFoodFacts API</strong> to fetch real-time
+              product details like ingredients and nutritional facts.
+            </li>
+            <li>
+              Designed with <strong>Next.js</strong> and{" "}
+              <strong>Tailwind CSS</strong> for an intuitive, mobile-first UI
+              with Responsive Application for Mobile and Other Devices.
+            </li>
+            <li>
+              Implemented secure user authentication with{" "}
+              <strong>NextAuth.js</strong> and data storage using{" "}
+              <strong>MongoDB</strong>.
+            </li>
+            <li>
+              Added data visualization with <strong>Recharts</strong> for daily
+              nutrient trends and consumption patterns.
+            </li>
+            <li>
+              Developed error-handling mechanisms and alternative input options
+              like manual barcode entry.
+            </li>
+            <li>
+              Focused on accessibility and performance optimization for an
+              enhanced user experience.
+            </li>
+          </ul>
+        }
+        codeLink="https://github.com/kishan9535/Nutri-Scanner"
+        liveSiteLink="https://nutriscanner.vercel.app/"
+      />
+      <Card
         projectName="News App"
         techStack="React.js, GNews API, CSS, React Icons"
         description={
