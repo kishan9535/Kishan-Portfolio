@@ -4,13 +4,11 @@ import Heading from "./Heading";
 function AboutMe() {
   return (
     <>
-     <div className="mt-5">
+      <div className="mt-5">
         <Heading textsize="text-l">About Me</Heading>
         <p className="mt-2 lg:mr-20 md:mr-0 mr-0 text-gray-800 dark:text-gray-200">
-          At <span className="font-bold text-green-500">MSRIT</span>, I am a{" "}
-          <span className="font-bold text-green-500">
-            Final-year engineering student
-          </span>{" "}
+          I am a{" "}
+          <span className="font-bold text-green-500">passionate software developer</span>{" "}
           with a deep passion for{" "}
           <span className="font-bold text-green-500">programming</span> and{" "}
           <span className="font-bold text-green-500">technology</span>. My
