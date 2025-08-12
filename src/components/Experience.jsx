@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="flex flex-col justify-center items-center gap-6">
         <Card
           projectName="Tsalla Aerospace"
-          position="Software Development Engineer I (May 24 – Present)"
+          position="Software Development Engineer I (May 2025 – Present)"
           description={
             <ul className="list-disc list-inside">
               <li>Built and optimized an advanced interface for drones and UAVs using QML within QGroundControl (QGC) software, enhancing mission planning and control efficiency.</li>
